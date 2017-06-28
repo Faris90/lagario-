@@ -17,7 +17,7 @@
     "gameWidth": 3000,
     "gameHeight": 3000,
     "adminPass": "adminPass",
-    "gameMass": 25000,
+    "gameMass": Infinity,
     "maxFood": 325,
     "maxVirus": 0,
     "slowBase": 4.5,
