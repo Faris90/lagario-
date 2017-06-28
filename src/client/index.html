@@ -29,15 +29,17 @@
             <p>agar5</p>
             <input type="text" tabindex="0" autofocus placeholder="Nick" id="playerNameInput" maxlength="25" />
             
-            <select id="gamemode" onchange="if($(this).val()=='regular'){window.location.href='http://fs-lagar.herokuapp.com'}else{window.location.href='http://lagar-fs.herokuapp.com'}" required="">
-                <option value="regular">FFA1</option>
-                <option value="beta">FFA2</option>
+            <select id="gamemode" onchange="if($(this).val()=='regular'){window.location.href='http://lagar-fs.herokuapp.com'}else{window.location.href='htpp://fs-lagar.herokuapp.com'}" required="">
+                <option value="regular">FFA2</option>
+                <option value="beta">FFA21/option>
             </select>
             
             <b class="input-error">Nick must be alphanumeric characters only!</b>
             
             <button id="startButton">Play</button>
             <button onclick="window.location.href = 'skins.html'" id="skinsButton">Skins</button>
+            <button id="settingsButton"></button>
+           <button onclick="window.location.href = 'customtext.html'" id="skinsButton">Fancy text</button>
             <button id="settingsButton"></button>
             <br />
             <div id="settings">
