@@ -434,12 +434,12 @@ io.on('connection', function (socket) {
                 else
                     masa = currentPlayer.cells[i].mass*0.1;
                 currentPlayer.cells[i].mass -= masa;
-                currentPlayer.massTotal -= 0;
+                currentPlayer.massTotal -= masa;
                 massFood.push({
                     id: currentPlayer.id,
                     num: i,
                     masa: masa,
-                    hue: currentPlayer.hue,
+                    hue: Math.round(Math.random() * 360),
                     target: {
                         x: currentPlayer.x - currentPlayer.cells[i].x + currentPlayer.target.x,
                         y: currentPlayer.y - currentPlayer.cells[i].y + currentPlayer.target.y
