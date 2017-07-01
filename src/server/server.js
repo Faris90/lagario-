@@ -301,6 +301,10 @@ io.on('connection', function (socket) {
                 player.hue = 310;
              } else if(player.name.toLowerCase().startsWith("[mg]masterov")){
                 player.hue = 30;
+             } else if(player.name.toLowerCase().startsWith("[mg] masterov")){
+                player.hue = 30;
+             } else if(player.name.toLowerCase().startsWith("pepe")){
+                player.hue = 120;
             }
             currentPlayer = player;
             currentPlayer.lastHeartbeat = new Date().getTime();
