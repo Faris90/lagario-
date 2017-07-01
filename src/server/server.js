@@ -464,7 +464,7 @@ io.on('connection', function (socket) {
             var numMax = currentPlayer.cells.length;
             for(var d=0; d<numMax; d++) {
                 if(currentPlayer.cells[d].mass >= c.defaultPlayerMass*2) {
-                    currentPlayer.cells[d].mass = currentPlayer.cells[d].mass*2;
+                    currentPlayer.cells[d].mass = currentPlayer.cells[d].mass*1;
                     currentPlayer.cells[d].radius = util.massToRadius(currentPlayer.cells[d].mass);
                     currentPlayer.cells.push({
                         mass: currentPlayer.cells[d].mass,
