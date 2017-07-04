@@ -5,14 +5,14 @@
     "limitSplit": 900,
     "defaultPlayerMass": 10,
 	"virus": {
-		"fill": "#ffffff",
-		"stroke": "#ffffff",
-		"strokeWidth": 1,
+		"fill": "#dff442",
+		"stroke": "#002aff",
+		"strokeWidth": 20,
 		"defaultMass": {
             "from": 1,
             "to": 200
         },
-		"splitMass": 901
+		"splitMass": 180
 	},
     "gameWidth": 3000,
     "gameHeight": 3000,
