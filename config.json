@@ -17,7 +17,7 @@
     "gameWidth": 3000,
     "gameHeight": 3000,
     "adminPass": "adminPass",
-    "gameMass": 900000000000000000000000000000000,
+    "gameMass": 90000000,
     "maxFood": 325,
     "maxVirus": 50,
     "slowBase": 4.5,
