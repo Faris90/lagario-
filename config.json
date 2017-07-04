@@ -19,7 +19,7 @@
     "adminPass": "adminPass",
     "gameMass": 9000,
     "maxFood": 325,
-    "maxVirus": 0,
+    "maxVirus": 50,
     "slowBase": 4.5,
     "logChat": 0,
     "networkUpdateFactor": 40,
